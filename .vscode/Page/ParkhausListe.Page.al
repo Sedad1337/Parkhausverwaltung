@@ -14,23 +14,24 @@ page 50100 "Parkhaus Liste"
             {
                 field("Parkhaus ID"; Rec."Parkhaus ID")
                 {
-                    ToolTip = 'Specifies the value of the Parkhaus ID field.';
+                    ToolTip = 'Gibt die ID des jeweiligen Parkhauses an.';
                     ApplicationArea = All;
                 }
                 field("Kapazität"; Rec."Kapazität")
                 {
-                    ToolTip = 'Specifies the value of the Kapazität field.';
+                    ToolTip = 'Gibt die Gesamtkapazität des Parkhauses an.';
                     ApplicationArea = All;
                 }
                 field("Anzahl reserviert"; Rec."Anzahl reserviert")
                 {
-                    ToolTip = 'Specifies the value of the Anzahl reserviert field.';
+                    ToolTip = 'Gibt die Anzahl der reservierten Plätze für Dauerkatzenbesitzer an.';
                     ApplicationArea = All;
                 }
                 field("Freie Plätze"; Rec."Freie Plätze")
                 {
-                    ToolTip = 'Specifies the value of the Freie Plätze field.';
+                    ToolTip = 'Gibt die Anzahl der aktuell freien Plätze an.';
                     ApplicationArea = All;
+                    Editable = false;
                 }
             }
         }
