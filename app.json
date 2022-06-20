@@ -1,0 +1,29 @@
+{
+  "id": "8bc13cf5-578c-4a61-8d18-d19cbf2a09c6",
+  "name": "Parkhausverwaltung",
+  "publisher": "IFA02",
+  "version": "1.0.0.0",
+  "brief": "Parkhausverwaltung",
+  "description": "Ein Gruppenprojekt der IFA02",
+  "privacyStatement": "https://www.tso.de/",
+  "EULA": "https://www.tso.de/",
+  "help": "https://www.tso.de/",
+  "url": "https://www.tso.de/",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "8.0",
+  "features": ["TranslationFile","NoImplicitWith"]
+}

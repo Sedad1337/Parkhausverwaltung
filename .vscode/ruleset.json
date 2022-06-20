@@ -1,0 +1,26 @@
+{
+    "name": "Temporary",
+    "rules":
+     [
+        {
+            "id": "AS0084",
+            "action": "None",
+            "description": "Ignore ID Range Error"
+        },
+        {
+            "id": "AS0051",
+            "action": "None",
+            "justification":"We are on Prem"
+        },
+        {
+            "id": "AS0054",
+            "action": "None",
+            "justification": "Ignore Mandatory Error"
+        },
+        {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "Ignore Mandatory Error"
+        }
+     ]
+}
